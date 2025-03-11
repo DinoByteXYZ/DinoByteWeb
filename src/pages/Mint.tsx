@@ -122,7 +122,6 @@ const NFTPreview = styled.div`
 `;
 
 const Mint: React.FC = () => {
-  // const { connected, connectWallet } = useWallet();
   const connected = true;
   const connectWallet = () => {
     console.log('Connect Wallet');
