@@ -1,6 +1,6 @@
 {
-  "name": "pixel-dragon-nft",
-  "version": "0.1.0",
+  "name": "DinoByte",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@rainbow-me/rainbowkit": "^2.2.4",
