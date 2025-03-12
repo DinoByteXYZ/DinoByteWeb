@@ -1,9 +1,11 @@
+import { title } from 'process';
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
 interface MintProgressProps {
   totalSupply: number;
   mintedCount: number;
+  showTitle: string;
 }
 
 const blinkAnimation = keyframes`
@@ -86,7 +88,7 @@ const PriceTag = styled.div`
   }
 `;
 
-const MintProgress: React.FC<MintProgressProps> = ({ totalSupply, mintedCount }) => {
+const MintProgress: React.FC<MintProgressProps> = ({ totalSupply, mintedCount, showTitle }) => {
   const percentage = (mintedCount / totalSupply) * 100;
   
   const createDots = () => {
@@ -117,7 +119,7 @@ const MintProgress: React.FC<MintProgressProps> = ({ totalSupply, mintedCount })
       </ProgressBar>
       
       <ProgressText>
-        🔥 {mintedCount}/{totalSupply} Minted
+        🔥 {mintedCount}/{totalSupply} {showTitle}
       </ProgressText>
     </ProgressContainer>
   );

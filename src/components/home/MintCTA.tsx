@@ -6,6 +6,7 @@ import { useAccount } from 'wagmi';
 import { ethers } from 'ethers';
 
 import { useEarlyBird } from '../../hooks/useEarlyBird';
+import MintProgress from '../../components/mint/MintProgress';
 
 const pulse = keyframes`
   0% { transform: scale(1); }
@@ -252,9 +253,11 @@ const reserveNow = async () => {
           </CountdownItem>
         </CountdownContainer>
         
-        <Subtitle>
+        <MintProgress totalSupply={totalSupply} mintedCount={mintedCount} showTitle="Sold" />
+        
+        {/* <Subtitle>
           {mintedCount === 0 ? "-" : mintedCount}/{totalSupply}
-        </Subtitle>
+        </Subtitle> */}
         
         {isConnected ? (
           <>

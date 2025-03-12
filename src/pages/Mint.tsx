@@ -146,7 +146,7 @@ const Mint: React.FC = () => {
         <MintCard>
           <MintTitle>Mint DinoByte NFT</MintTitle>
           
-          <MintProgress totalSupply={totalSupply} mintedCount={mintedCount} />
+          <MintProgress totalSupply={totalSupply} mintedCount={mintedCount} showTitle="Minted" />
           
           <NFTPreview>
             <img src="/images/legendary.png" alt="DinoByte NFT Preview" />
