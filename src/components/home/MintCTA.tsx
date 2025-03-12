@@ -150,13 +150,13 @@ const MintCTA: React.FC = () => {
   const { isConnected, address } = useAccount();
   // const { signer, mint } = useEarlyBird();
 
-  const { mintPrice, totalSupply, mintedCount, isRegistered,signer, mint } = useEarlyBird();
-  const priceETH = ethers.formatEther(mintPrice); 
-  // const mintPrice = 99;
-  // const totalSupply = 100;
-  // const mintedCount = 0;
-  // const isRegistered = false;
-  // const priceETH =99; 
+  // const { mintPrice, totalSupply, mintedCount, isRegistered,signer, mint } = useEarlyBird();
+  // const priceETH = ethers.formatEther(mintPrice); 
+  const mintPrice = 0;
+  const totalSupply: number = 100;
+  const mintedCount: number = 0;
+  const isRegistered = false;
+  const priceETH =99; 
 
 
   
