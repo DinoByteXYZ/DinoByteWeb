@@ -253,7 +253,7 @@ const reserveNow = async () => {
           </CountdownItem>
         </CountdownContainer>
         
-        <MintProgress totalSupply={totalSupply} mintedCount={mintedCount} showTitle="Sold" />
+        <MintProgress totalSupply={totalSupply} mintedCount={mintedCount} showTitle="" />
         
         {/* <Subtitle>
           {mintedCount === 0 ? "-" : mintedCount}/{totalSupply}
