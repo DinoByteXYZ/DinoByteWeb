@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled, { keyframes } from 'styled-components';
 import Navbar from '../components/common/Navbar';
 import Button from '../components/common/Button';
@@ -85,7 +85,7 @@ const Title = styled.h1`
 
 const MintTitle = styled.h2`
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 2rem;
   color: ${props => props.theme.colors.light};
   
@@ -97,27 +97,78 @@ const MintTitle = styled.h2`
 
 const MintPrice = styled.div`
   text-align: center;
-  margin: 2rem 0;
-  font-size: 1.5rem;
+  margin: 1rem 0;
+  font-size: 1rem;
   font-family: ${props => props.theme.fonts.tech};
   color: ${props => props.theme.colors.light};
 `;
 
 const MintButtonContainer = styled.div`
   text-align: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
 `;
 
 const NFTPreview = styled.div`
   display: flex;
   justify-content: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
   
   img {
     width: 200px;
     height: 200px;
     image-rendering: pixelated;
     border: 3px solid ${props => props.theme.colors.secondary};
+  }
+`;
+
+const QuantitySelector = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+`;
+
+const QuantityButton = styled.button`
+  background: transparent;
+  border: 1px solid #ffffff40;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: all 0.2s;
+
+  &:hover {
+    background: #ffffff10;
+    border-color: #ffffff80;
+  }
+`;
+
+const QuantityInput = styled.input`
+  background: transparent;
+  border: 1px solid #ffffff40;
+  color: white;
+  width: 60px;
+  height: 32px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  padding: 0 5px;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: #ffffff80;
   }
 `;
 
@@ -130,13 +181,31 @@ const Mint: React.FC = () => {
   const mintPrice = 199;
   const totalSupply = 2000;
   const mintedCount = 0;
+  const mintMax = 100;
+  const [quantity, setQuantity] = useState(1);
+  
+  const handleQuantityChange = (value: string) => {
+    const num = parseInt(value);
+    if (!isNaN(num) && num >= 1 && num <= mintMax) { // 假设最大限制为10
+      setQuantity(num);
+    }
+  };
+
+  const decreaseQuantity = () => {
+    if (quantity > 1) {
+      setQuantity(quantity - 1);
+    }
+  };
+
+  const increaseQuantity = () => {
+    if (quantity < mintMax) { // 假设最大限制为10
+      setQuantity(quantity + 1);
+    }
+  };
+
   const handleMint = () => {
+    // 原有的mint逻辑，加入quantity参数
     alert("Time not yet"); 
-    // if (!connected) {
-    //   connectWallet();
-    // } else {
-    //   // mint();
-    // }
   };
   
   return (
@@ -154,7 +223,20 @@ const Mint: React.FC = () => {
           
           <MintPrice>
             Price: {mintPrice} S
+            {quantity > 1 && ` (Total: ${(Number(mintPrice) * quantity).toFixed(2)} S)`}
           </MintPrice>
+          
+          <QuantitySelector>
+            <QuantityButton onClick={decreaseQuantity}>-</QuantityButton>
+            <QuantityInput
+              type="number"
+              min="1"
+              max="10"
+              value={quantity}
+              onChange={(e) => handleQuantityChange(e.target.value)}
+            />
+            <QuantityButton onClick={increaseQuantity}>+</QuantityButton>
+          </QuantitySelector>
           
           <MintButtonContainer>
             <Button 
@@ -163,7 +245,7 @@ const Mint: React.FC = () => {
               glowing={true}
               onClick={handleMint}
             >
-              {'Mint NFT'}
+              {`Mint ${quantity} NFT${quantity > 1 ? 's' : ''}`}
             </Button>
           </MintButtonContainer>
 

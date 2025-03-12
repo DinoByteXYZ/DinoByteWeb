@@ -1,6 +1,6 @@
 import { ethers } from 'ethers';
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useMemo } from 'react'
 import { useAccount } from 'wagmi';
 import { type Config, useConnectorClient } from 'wagmi'
@@ -21,16 +21,19 @@ export const useEarlyBird = () => {
   const { isConnected, address } = useAccount();
   const signer = useEthersSigner();
 
-  
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
   const [mintPrice, setMintPrice] = useState<string>('0');
   const [totalSupply, setTotalSupply] = useState<number>(100);
   const [mintedCount, setMintedCount] = useState<number>(0);
   const [isMinting, setIsMinting] = useState<boolean>(false);
   const [isRegistered, setIsRegistered] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
-  
-  useEffect(() => {
-    const fetchContractData = async () => {
+  const contract = new ethers.Contract(
+    EARLY_BIRD_CONTRACT,
+    EARLY_BIRD_ABI,
+    signer
+  );
+  const fetchContractData = async () => {
       if (isConnected && address && signer) {
         try {
           // const contract = new ethers.Contract(
@@ -38,17 +41,52 @@ export const useEarlyBird = () => {
           //   EARLY_BIRD_ABI,
           //   signer
           // );
-          // const isRegistered = await contract.isEarlyBirds(address);
-          // setIsRegistered(isRegistered);
           
-          // const registrationFee = await contract.registrationFee();
-          // setMintPrice(registrationFee.toString());
+          const currentEarlyBirdsCount = await contract.getCurrentEarlyBirdsCount();
+          setMintedCount(Number(currentEarlyBirdsCount));
+          
+          if (Number(currentEarlyBirdsCount) === totalSupply) {
+            if (intervalRef.current) {
+              clearInterval(intervalRef.current);
+              intervalRef.current = null;
+            }
+          }
+          
+        } catch (err) {
+          console.error('Error checking registration status:', err);
+          setError('Error checking registration status');
+        }
+      }
+    };
+    const checkRegistrationStatus = async () => {
+      if (isConnected && address && signer) {
+        try {
+          const isRegistered = await contract.isEarlyBirds(address);
+          setIsRegistered(isRegistered);
 
-          // const maxEarlyBirdsCount = await contract.maxEarlyBirdsCount();
-          // setTotalSupply(Number(maxEarlyBirdsCount));
+          console.log('isRegistered',isRegistered);
+          
+        } catch (err) {
+          console.error('Error checking registration status:', err);
+          setError('Error checking registration status');
+        }
+      }
+    };
+  useEffect(() => {
+    const initData = async () => {
+      if (isConnected && address && signer) {
+        try {
+          // const contract = new ethers.Contract(
+          //   EARLY_BIRD_CONTRACT,
+          //   EARLY_BIRD_ABI,
+          //   signer
+          // );
+          
+          const registrationFee = await contract.registrationFee();
+          setMintPrice(registrationFee.toString());
 
-          // const currentEarlyBirdsCount = await contract.getCurrentEarlyBirdsCount();
-          // setMintedCount(Number(currentEarlyBirdsCount));
+          const currentEarlyBirdsCount = await contract.getCurrentEarlyBirdsCount();
+          setMintedCount(Number(currentEarlyBirdsCount));
 
           
         } catch (err) {
@@ -57,29 +95,56 @@ export const useEarlyBird = () => {
         }
       }
     };
-    
+    initData();
+    checkRegistrationStatus();
     fetchContractData();
-    
-    // const interval = setInterval(fetchContractData, 30000);
+
+    // 只有在未售罄的情况下才设置定时器
+    if (mintedCount !== totalSupply) {
+      intervalRef.current = setInterval(() => {
+        fetchContractData();
+      }, 5000);
+    }
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+      }
+    };
+
+
+    // const interval = setInterval(fetchContractData, 10000);
     // return () => clearInterval(interval);
   }, [signer]);
   
   const mint = async () => {
     if (isConnected && address && signer) {
       
-      setIsMinting(true);
-      setError(null);
+      // setIsMinting(true);
+      // setError(null);
       
       try {
-        const contract = new ethers.Contract(
-          EARLY_BIRD_CONTRACT,
-          EARLY_BIRD_ABI,
-          signer
-        );
+
+        const isRegistrationEnabled = await contract.isRegistrationEnabled();
+        if (!isRegistrationEnabled) {
+          alert("WhiteList is not enabled");
+          return;
+        }
+        // const isRegistered = await contract.isEarlyBirds(address);
+        // if (isRegistered) {
+        //   alert("You are already a member");
+        //   return;
+        // }
+
+
         const tx = await contract.registerAsEarlyBird({ value: mintPrice });
         await tx.wait(); 
 
         console.log('Mint success!');
+        fetchContractData();
+        setIsRegistered(true);
+
+        alert("Reserve WhiteList Success");
       } catch (err) {
         console.error('Mint failed:', err);
         setError('Mint failed, please try again');

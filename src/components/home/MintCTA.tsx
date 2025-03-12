@@ -148,15 +148,15 @@ const ButtonGroup = styled.div`
 
 const MintCTA: React.FC = () => {
   const { isConnected, address } = useAccount();
-  const { signer, mint } = useEarlyBird();
+  // const { signer, mint } = useEarlyBird();
 
-  // const { mintPrice, totalSupply, mintedCount, isRegistered,signer, mint } = useEarlyBird();
-  // const priceETH = ethers.formatEther(mintPrice); 
-  const mintPrice = 99;
-  const totalSupply = 100;
-  const mintedCount = 0;
-  const isRegistered = false;
-  const priceETH =99; 
+  const { mintPrice, totalSupply, mintedCount, isRegistered,signer, mint } = useEarlyBird();
+  const priceETH = ethers.formatEther(mintPrice); 
+  // const mintPrice = 99;
+  // const totalSupply = 100;
+  // const mintedCount = 0;
+  // const isRegistered = false;
+  // const priceETH =99; 
 
 
   
@@ -202,28 +202,28 @@ const handleScrollToAbout = () => {
 
 
 const reserveNow = async () => {
-  alert("Time not yet"); 
-  // try {
-  //   const userAddress = await signer?.getAddress();
-  //   const provider = signer?.provider;
+  try {
+    alert("Time not yet");
+    // const userAddress = await signer?.getAddress();
+    // const provider = signer?.provider;
     
-  //   const balance = await provider?.getBalance(userAddress??"");
-  //   console.log('balance',balance);
+    // const balance = await provider?.getBalance(userAddress??"");
+    // console.log('balance',balance);
 
-  //   if ( ethers.parseEther(balance?.toString()??"0")<(Number(mintPrice))) {
-  //     alert("Insufficient balance"); 
-  //     return;
-  //   }
+    // if ( ethers.parseEther(balance?.toString()??"0")<(Number(mintPrice))) {
+    //   alert("Insufficient balance"); 
+    //   return;
+    // }
 
-  //   console.log('balance',mintPrice);
-  //   await mint();
-  //   alert("Reserve WhiteList Success");
-  //   window.location.reload();
+    // console.log('mintPrice',mintPrice);
+    // await mint();
     
-  //   console.log('success');
-  // } catch (error) {
-  //   console.error('error:', error);
-  // }
+    
+    // console.log('success');
+  } catch (error) {
+    alert("Failed, please try again");
+    console.error('error:', error);
+  }
 };
   
   return (
@@ -254,37 +254,38 @@ const reserveNow = async () => {
         </CountdownContainer>
         
         <MintProgress totalSupply={totalSupply} mintedCount={mintedCount} showTitle="" />
-        
-        {/* <Subtitle>
-          {mintedCount === 0 ? "-" : mintedCount}/{totalSupply}
-        </Subtitle> */}
-        
-        {isConnected ? (
+        {mintedCount === totalSupply ? (
+          <Title>Sold out</Title>
+        ) : (
           <>
-            <ButtonGroup>
-              {isRegistered ? (
-                <Button glowing size="large">
-                  Eligible
-                </Button>
-              ) : (
-                <Button primary glowing size="large" onClick={reserveNow}>
-                  Reserve now
-                </Button>
-              )}
-              <a>
-                <Button outlined size="large" onClick={handleScrollToAbout}>
-                  learn more
-                </Button>
-              </a>
-            </ButtonGroup>
-            {isRegistered ? (
-              <Title>You have been whitelisted</Title>
+            {isConnected ? (
+              <>
+                <ButtonGroup>
+                  {isRegistered ? (
+                    <Button glowing size="large">
+                      Eligible
+                    </Button>
+                  ) : (
+                    <Button primary glowing size="large" onClick={reserveNow}>
+                      Reserve now
+                    </Button>
+                  )}
+                  <a>
+                    <Button outlined size="large" onClick={handleScrollToAbout}>
+                      learn more
+                    </Button>
+                  </a>
+                </ButtonGroup>
+                {isRegistered ? (
+                  <Title>You have been whitelisted</Title>
+                ) : (
+                  <PriceTag>PRICE: {priceETH} S</PriceTag>
+                )}
+              </>
             ) : (
-              <PriceTag>PRICE: {priceETH} S</PriceTag>
+              <Subtitle>Please connect wallet</Subtitle>
             )}
           </>
-        ) : (
-          <Subtitle>Please connect wallet</Subtitle>
         )}
       </CTAContent>
     </CTASection>
