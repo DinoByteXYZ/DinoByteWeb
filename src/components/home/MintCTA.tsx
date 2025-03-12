@@ -169,7 +169,7 @@ const MintCTA: React.FC = () => {
       seconds: 0
   });
   React.useEffect(() => {
-    const targetDate = new Date('2025-03-12T12:00:00Z'); 
+    const targetDate = new Date('2025-03-13T12:00:00Z'); 
     const calculateTimeLeft = () => {
     const now = new Date();
     const difference = targetDate.getTime() - now.getTime();

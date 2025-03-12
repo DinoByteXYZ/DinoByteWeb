@@ -109,6 +109,7 @@ const Footer: React.FC = () => {
           </FooterText>
           <SocialLinks>
             <SocialIcon href="https://x.com/DinoByteXYZ" target="_blank">X</SocialIcon>
+            <SocialIcon href="https://t.me/Sonic_English" target="_blank">T</SocialIcon>
           </SocialLinks>
         </FooterSection>
         
@@ -127,7 +128,7 @@ const Footer: React.FC = () => {
           <FooterLinks>
             {/* <li><a href="https://discord.com" target="_blank">Discord</a></li> */}
             <li><a href="https://x.com/DinoByteXYZ" target="_blank">Twitter</a></li>
-            {/* <li><a href="https://telegram.org" target="_blank">Telegram</a></li> */}
+            <li><a href="https://t.me/Sonic_English" target="_blank">Telegram</a></li>
           </FooterLinks>
         </FooterSection>
         
