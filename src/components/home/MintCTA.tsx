@@ -65,7 +65,6 @@ const Subtitle = styled.p`
 `;
 
 const CTASection = styled.section`
-  padding: 2rem 1rem;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
               url('/images/cta-bg.png');
   background-size: cover;
@@ -82,7 +81,7 @@ const CTATitle = styled.h2`
 `;
 
 const CTAContent = styled.div`
-  padding-top: 120px;
+  padding-top: 100px;
   max-width: 800px;
   margin: 0 auto;
 `;
@@ -183,8 +182,13 @@ const LoadingContent = styled.div`
 const MintCTA: React.FC = () => {
   const { isConnected, address } = useAccount();
 
-  const { mintPrice, totalSupply, mintedCount,isMinting,isRegistered,signer, mint } = useEarlyBird();
-  const priceETH = ethers.formatEther(mintPrice); 
+  // const { mintPrice, totalSupply, mintedCount,isMinting,isRegistered,signer, mint } = useEarlyBird();
+  // const priceETH = ethers.formatEther(mintPrice); 
+  const totalSupply = 100;
+  const mintedCount = 100;  
+  const isMinting = false;
+  const isRegistered = false;
+  const priceETH = 99;
 
 
   
@@ -228,12 +232,12 @@ const handleScrollToAbout = () => {
 
 const reserveNow = async () => {
   try {
-    const userAddress = await signer?.getAddress();
-    const provider = signer?.provider;
+    // const userAddress = await signer?.getAddress();
+    // const provider = signer?.provider;
     
 
-    console.log('mintPrice',mintPrice);
-    await mint();
+    // console.log('mintPrice',mintPrice);
+    // await mint();
     
     
     console.log('success');
@@ -247,12 +251,12 @@ const reserveNow = async () => {
     <>
       <CTASection>
         <CTAContent>
-          <Title>🦖 Reserve DinoByte WhiteList now</Title>
+          <Title>🦖 DinoByte WhiteList Sold out</Title>
           <Subtitle>
           DinoByte NFT WL is limited to 100 spots, FCFS. To secure a place, users must pay 50% of the NFT price upfront. WL addresses may mint one NFT for free, with no further cost.
           </Subtitle>
           
-          <CountdownContainer>
+          {/* <CountdownContainer>
             <CountdownItem>
               <div className="number">{countdown.days}</div>
               <div className="label">D</div>
@@ -269,10 +273,10 @@ const reserveNow = async () => {
               <div className="number">{countdown.seconds}</div>
               <div className="label">S</div>
             </CountdownItem>
-          </CountdownContainer>
+          </CountdownContainer> */}
           
           <MintProgress totalSupply={totalSupply} mintedCount={mintedCount} showTitle="" />
-          {mintedCount === totalSupply ? (
+          {/* {mintedCount === totalSupply ? (
             <Title>Sold out</Title>
           ) : (
             <>
@@ -304,7 +308,7 @@ const reserveNow = async () => {
                 <Subtitle>Please connect wallet</Subtitle>
               )}
             </>
-          )}
+          )} */}
         </CTAContent>
       </CTASection>
       

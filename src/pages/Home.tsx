@@ -17,8 +17,8 @@ const Home: React.FC = () => {
   return (
     <HomeContainer>
       <Navbar transparent={true} />
-      {/* <Hero /> */}
       <MintCTA />
+      <Hero />
       <About />
       <RaritySection />
       <Footer />

@@ -185,9 +185,34 @@ const Mint: React.FC = () => {
   const [quantity, setQuantity] = useState(1);
   
   const handleQuantityChange = (value: string) => {
+    if (value === '') {
+      setQuantity(1);
+      return;
+    }
+    
     const num = parseInt(value);
-    if (!isNaN(num) && num >= 1 && num <= mintMax) { // 假设最大限制为10
+    if (!isNaN(num) && num >= 1 && num <= mintMax) {
       setQuantity(num);
+    }
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    if (value === '' || /^\d+$/.test(value)) {
+      if (value === '') {
+        setQuantity(0);
+      } else {
+        const num = parseInt(value);
+        if (num <= mintMax) {
+          setQuantity(num);
+        }
+      }
+    }
+  };
+
+  const handleBlur = () => {
+    if (quantity < 1) {
+      setQuantity(1);
     }
   };
 
@@ -198,13 +223,12 @@ const Mint: React.FC = () => {
   };
 
   const increaseQuantity = () => {
-    if (quantity < mintMax) { // 假设最大限制为10
+    if (quantity < mintMax) {
       setQuantity(quantity + 1);
     }
   };
 
   const handleMint = () => {
-    // 原有的mint逻辑，加入quantity参数
     alert("Time not yet"); 
   };
   
@@ -220,7 +244,6 @@ const Mint: React.FC = () => {
           <NFTPreview>
             <img src="/images/legendary.png" alt="DinoByte NFT Preview" />
           </NFTPreview>
-          
           <MintPrice>
             Price: {mintPrice} S
             {quantity > 1 && ` (Total: ${(Number(mintPrice) * quantity).toFixed(2)} S)`}
@@ -231,13 +254,16 @@ const Mint: React.FC = () => {
             <QuantityInput
               type="number"
               min="1"
-              max="10"
-              value={quantity}
-              onChange={(e) => handleQuantityChange(e.target.value)}
+              max={mintMax}
+              value={quantity || ''}
+              onChange={handleInputChange}
+              onBlur={handleBlur}
             />
             <QuantityButton onClick={increaseQuantity}>+</QuantityButton>
           </QuantitySelector>
-          
+          <MintPrice>
+            MAX:100 per wallet
+          </MintPrice>
           <MintButtonContainer>
             <Button 
               primary 
