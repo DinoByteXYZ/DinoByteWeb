@@ -146,20 +146,45 @@ const ButtonGroup = styled.div`
   }
 `;
 
+const LoadingOverlay = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+`;
+
+const LoadingContent = styled.div`
+  color: ${props => props.theme.colors.light};
+  text-align: center;
+  font-family: ${props => props.theme.fonts.tech};
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 3px solid ${props => props.theme.colors.primary};
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+`;
+
 const MintCTA: React.FC = () => {
   const { isConnected, address } = useAccount();
-  // const { signer, mint } = useEarlyBird();
 
-  // const { mintPrice, totalSupply, mintedCount, isRegistered,signer, mint } = useEarlyBird();
-  // const priceETH = ethers.formatEther(mintPrice); 
-  const mintPrice = 0;
-  const totalSupply: number = 100;
-  const mintedCount: number = 0;
-  const isRegistered = false;
-  const priceETH =99; 
-
-
-  
+  const { mintPrice, totalSupply, mintedCount,isMinting,isRegistered,signer, mint } = useEarlyBird();
+  const priceETH = ethers.formatEther(mintPrice); 
 
 
   
@@ -203,23 +228,15 @@ const handleScrollToAbout = () => {
 
 const reserveNow = async () => {
   try {
-    alert("Time not yet");
-    // const userAddress = await signer?.getAddress();
-    // const provider = signer?.provider;
+    const userAddress = await signer?.getAddress();
+    const provider = signer?.provider;
     
-    // const balance = await provider?.getBalance(userAddress??"");
-    // console.log('balance',balance);
 
-    // if ( ethers.parseEther(balance?.toString()??"0")<(Number(mintPrice))) {
-    //   alert("Insufficient balance"); 
-    //   return;
-    // }
-
-    // console.log('mintPrice',mintPrice);
-    // await mint();
+    console.log('mintPrice',mintPrice);
+    await mint();
     
     
-    // console.log('success');
+    console.log('success');
   } catch (error) {
     alert("Failed, please try again");
     console.error('error:', error);
@@ -227,68 +244,79 @@ const reserveNow = async () => {
 };
   
   return (
-    <CTASection>
-      <CTAContent>
-        <Title>🦖 Reserve DinoByte WhiteList now</Title>
-        <Subtitle>
-        DinoByte NFT WL is limited to 100 spots, FCFS. To secure a place, users must pay 50% of the NFT price upfront. WL addresses may mint one NFT for free, with no further cost.
-        </Subtitle>
-        
-        <CountdownContainer>
-          <CountdownItem>
-            <div className="number">{countdown.days}</div>
-            <div className="label">D</div>
-          </CountdownItem>
-          <CountdownItem>
-            <div className="number">{countdown.hours}</div>
-            <div className="label">H</div>
-          </CountdownItem>
-          <CountdownItem>
-            <div className="number">{countdown.minutes}</div>
-            <div className="label">M</div>
-          </CountdownItem>
-          <CountdownItem>
-            <div className="number">{countdown.seconds}</div>
-            <div className="label">S</div>
-          </CountdownItem>
-        </CountdownContainer>
-        
-        <MintProgress totalSupply={totalSupply} mintedCount={mintedCount} showTitle="" />
-        {mintedCount === totalSupply ? (
-          <Title>Sold out</Title>
-        ) : (
-          <>
-            {isConnected ? (
-              <>
-                <ButtonGroup>
+    <>
+      <CTASection>
+        <CTAContent>
+          <Title>🦖 Reserve DinoByte WhiteList now</Title>
+          <Subtitle>
+          DinoByte NFT WL is limited to 100 spots, FCFS. To secure a place, users must pay 50% of the NFT price upfront. WL addresses may mint one NFT for free, with no further cost.
+          </Subtitle>
+          
+          <CountdownContainer>
+            <CountdownItem>
+              <div className="number">{countdown.days}</div>
+              <div className="label">D</div>
+            </CountdownItem>
+            <CountdownItem>
+              <div className="number">{countdown.hours}</div>
+              <div className="label">H</div>
+            </CountdownItem>
+            <CountdownItem>
+              <div className="number">{countdown.minutes}</div>
+              <div className="label">M</div>
+            </CountdownItem>
+            <CountdownItem>
+              <div className="number">{countdown.seconds}</div>
+              <div className="label">S</div>
+            </CountdownItem>
+          </CountdownContainer>
+          
+          <MintProgress totalSupply={totalSupply} mintedCount={mintedCount} showTitle="" />
+          {mintedCount === totalSupply ? (
+            <Title>Sold out</Title>
+          ) : (
+            <>
+              {isConnected ? (
+                <>
+                  <ButtonGroup>
+                    {isRegistered ? (
+                      <Button glowing size="large">
+                        Eligible
+                      </Button>
+                    ) : (
+                      <Button primary glowing size="large" onClick={reserveNow}>
+                        Reserve now
+                      </Button>
+                    )}
+                    <a>
+                      <Button outlined size="large" onClick={handleScrollToAbout}>
+                        learn more
+                      </Button>
+                    </a>
+                  </ButtonGroup>
                   {isRegistered ? (
-                    <Button glowing size="large">
-                      Eligible
-                    </Button>
+                    <Title>You have been whitelisted</Title>
                   ) : (
-                    <Button primary glowing size="large" onClick={reserveNow}>
-                      Reserve now
-                    </Button>
+                    <PriceTag>PRICE: {priceETH} S</PriceTag>
                   )}
-                  <a>
-                    <Button outlined size="large" onClick={handleScrollToAbout}>
-                      learn more
-                    </Button>
-                  </a>
-                </ButtonGroup>
-                {isRegistered ? (
-                  <Title>You have been whitelisted</Title>
-                ) : (
-                  <PriceTag>PRICE: {priceETH} S</PriceTag>
-                )}
-              </>
-            ) : (
-              <Subtitle>Please connect wallet</Subtitle>
-            )}
-          </>
-        )}
-      </CTAContent>
-    </CTASection>
+                </>
+              ) : (
+                <Subtitle>Please connect wallet</Subtitle>
+              )}
+            </>
+          )}
+        </CTAContent>
+      </CTASection>
+      
+      {isMinting && (
+        <LoadingOverlay>
+          <LoadingContent>
+            <div className="spinner" />
+            <div>Loading...</div>
+          </LoadingContent>
+        </LoadingOverlay>
+      )}
+    </>
   );
 };
 
