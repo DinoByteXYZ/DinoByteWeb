@@ -65,7 +65,6 @@ export const useMintNFT = () => {
         try {
           const earlyMinted = await mintNFTContract.usedEarlyBirdsMint(address);
           setIsEarlyMinted(earlyMinted);
-          // setIsEarlyMinted(true);//TODO: remove this
 
           console.log('earlyMinted',earlyMinted);
           
@@ -99,7 +98,6 @@ export const useMintNFT = () => {
     initData();
     checkEarlyMintStatus();
     fetchContractData();
-    //TODO: open this
     if (mintedCount !== totalSupply) {
       intervalRef.current = setInterval(() => {
         fetchContractData();
@@ -123,7 +121,6 @@ export const useMintNFT = () => {
         const provider = signer?.provider;
         const balance = await provider?.getBalance(userAddress??"");
         const balanceInEther = Number(ethers.formatEther(balance??"0"));
-        // const totalPrice = mintPrice * ethers.toBigInt(quantity);
         const totalPrice = ethers.toBigInt(mintPrice) * ethers.toBigInt(quantity);
         
         if (balanceInEther < Number(ethers.formatEther(totalPrice))) {
@@ -151,7 +148,6 @@ export const useMintNFT = () => {
     if (isConnected && address && signer) {
       
       setIsMinting(true);
-      // setError(null);
       
       try {
 

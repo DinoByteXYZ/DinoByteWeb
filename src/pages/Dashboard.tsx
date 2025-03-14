@@ -4,7 +4,6 @@ import Navbar from '../components/common/Navbar';
 import NFTCard from '../components/dashboard/NFTCard';
 import Button from '../components/common/Button';
 import { Link } from 'react-router-dom';
-// import { useWallet } from '../contexts/WalletContext';
 import { useNFTs } from '../hooks/useNFTs';
 
 const DashboardContainer = styled.div`
@@ -55,7 +54,6 @@ const EmptyStateText = styled.p`
 `;
 
 const Dashboard: React.FC = () => {
-  // const { connected, connectWallet } = useWallet();
   const connected = true;
   const connectWallet = () => {
     console.log('Connect Wallet');

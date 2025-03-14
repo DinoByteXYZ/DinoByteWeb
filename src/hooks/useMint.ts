@@ -49,7 +49,6 @@ export const useMint = () => {
     return () => clearInterval(interval);
   }, [active, provider]);
   
-  // 铸造NFT函数
   const mint = async () => {
     if (!active || !account || !provider) {
       setError('please connect wallet');
@@ -62,11 +61,7 @@ export const useMint = () => {
     try {
       await new Promise(resolve => setTimeout(resolve, 2000));
       
-      // const signer = await provider.getSigner(); //
-      // const contract = new ethers.Contract(CONTRACT_ADDRESS, PixelDragonABI, signer);
-      // const tx = await contract.mint({ value: ethers.parseEther(mintPrice) }); // 
-      // await tx.wait();
-      
+
 
       setMintedCount(prev => prev + 1);
       console.log('mint success!');

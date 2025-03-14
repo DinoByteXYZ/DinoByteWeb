@@ -44,7 +44,7 @@ export interface NFT {
         const nfts = await mintNFTContract.tokensOfOwner(address);
         // const nfts = [1,100,3];
 
-        setOwnedNFTs(nfts.map((id: any) => Number(id))); // 将 BigNumber 转换为普通数字
+        setOwnedNFTs(nfts.map((id: any) => Number(id))); 
       } catch (err) {
         console.error('Error fetching NFTs:', err);
         setError('Failed to fetch owned NFTs');
@@ -54,7 +54,7 @@ export interface NFT {
     };
   useEffect(() => {
     fetchOwnedNFTs();
-  }, [address, signer]); // 当地址或 signer 变化时重新获取
+  }, [address, signer]);
 
   
   return {
