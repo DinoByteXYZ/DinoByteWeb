@@ -115,7 +115,7 @@ const Dashboard: React.FC = () => {
             <NFTCard 
               key={tokenId}
               id={tokenId}
-              imageUrl={`/nft/images/${tokenId}.png`}
+              imageUrl={`/nft/image/${tokenId}.png`}
               name={`DinoByte`}
               rarity={`Rarity ${tokenId}` as "common" | "rare" | "epic" | "legendary"}
             />

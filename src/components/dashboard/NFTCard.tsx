@@ -93,7 +93,6 @@ const NFTActions = styled.div`
   margin-top: auto;
 `;
 
-// 添加类型定义
 interface NFTDetail {
   id: number;
   rarity: string;
@@ -108,7 +107,6 @@ const NFTCard: React.FC<NFTCardProps> = ({ id, imageUrl, name, rarity }) => {
     legendary: 'LEGENDARY ',
   };
   
-  // 从 JSON 文件中查找对应 ID 的 NFT 详情
   const nftDetail = rarityReport.detailedNFTList.find(
     (nft: NFTDetail) => nft.id === id
   );
