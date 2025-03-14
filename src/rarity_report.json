@@ -1,0 +1,1028 @@
+{
+  "totalNFTs": 2000,
+  "rarityDistribution": {
+    "COMMON": 1400,
+    "RARE": 400,
+    "EPIC": 180,
+    "LEGENDARY": 20
+  },
+  "expectedDistribution": {
+    "COMMON": "70%",
+    "RARE": "20%",
+    "EPIC": "10%",
+    "LEGENDARY": "1%"
+  },
+  "actualDistribution": {
+    "COMMON": "70.00%",
+    "RARE": "20.00%",
+    "EPIC": "9.00%",
+    "LEGENDARY": "1.00%"
+  },
+  "detailedNFTList": [
+    {
+      "id": 0,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 1,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 2,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 3,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 4,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 5,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 6,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 7,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 8,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 9,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 10,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 11,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 12,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 13,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 14,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 15,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 16,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 17,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 18,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 19,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 20,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 21,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 22,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 23,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 24,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 25,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 26,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 27,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 28,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 29,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 30,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 31,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 32,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 33,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 34,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 35,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 36,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 37,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 38,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 39,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 40,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 41,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 42,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 43,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 44,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 45,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 46,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 47,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 48,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 49,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 50,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 51,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 52,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 53,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 54,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 55,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 56,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 57,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 58,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 59,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 60,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 61,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 62,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 63,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 64,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 65,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 66,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 67,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 68,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 69,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 70,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 71,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 72,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 73,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 74,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 75,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 76,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 77,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 78,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 79,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 80,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 81,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 82,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 83,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 84,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 85,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 86,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 87,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 88,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 89,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 90,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 91,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 92,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 93,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 94,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 95,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 96,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 97,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 98,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 99,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 100,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 101,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 102,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 103,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 104,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 105,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 106,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 107,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 108,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 109,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 110,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 111,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 112,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 113,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 114,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 115,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 116,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 117,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 118,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 119,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 120,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 121,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 122,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 123,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 124,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 125,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 126,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 127,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 128,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 129,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 130,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 131,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 132,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 133,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 134,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 135,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 136,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 137,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 138,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 139,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 140,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 141,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 142,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 143,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 144,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 145,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 146,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 147,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 148,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 149,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 150,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 151,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 152,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 153,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 154,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 155,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 156,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 157,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 158,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 159,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 160,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 161,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 162,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 163,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 164,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 165,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 166,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 167,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 168,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 169,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 170,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 171,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 172,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 173,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 174,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 175,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 176,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 177,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 178,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 179,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 180,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 181,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 182,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 183,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 184,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 185,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 186,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 187,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 188,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 189,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 190,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 191,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 192,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 193,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 194,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 195,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 196,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 197,
+      "rarity": "RARE",
+      "traitsCount": 8
+    },
+    {
+      "id": 198,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 199,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    },
+    {
+      "id": 200,
+      "rarity": "COMMON",
+      "traitsCount": 7
+    }
+  ]
+}

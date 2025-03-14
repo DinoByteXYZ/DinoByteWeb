@@ -60,7 +60,7 @@ const Dashboard: React.FC = () => {
   const connectWallet = () => {
     console.log('Connect Wallet');
   };
-  const { nfts, loading } = useNFTs();
+  const { ownedNFTs, isLoading, error } = useNFTs();
   
   if (!connected) {
     return (
@@ -80,7 +80,7 @@ const Dashboard: React.FC = () => {
     );
   }
   
-  if (loading) {
+  if (isLoading) {
     return (
       <DashboardContainer>
         <Navbar />
@@ -97,12 +97,9 @@ const Dashboard: React.FC = () => {
   return (
     <DashboardContainer>
       <Navbar />
-      {/* <DashboardHeader>
-        <DashboardTitle>My DinoByte NFTs</DashboardTitle>
-      </DashboardHeader> */}
       
       <NFTGrid>
-        {nfts.length === 0 ? (
+        {ownedNFTs.length === 0 ? (
           <EmptyState>
             <EmptyStateTitle>You don't have any DinoByte NFTs</EmptyStateTitle>
             <EmptyStateText>Go to the Mint page to create your first DinoByte NFT</EmptyStateText>
@@ -116,13 +113,13 @@ const Dashboard: React.FC = () => {
             </Link>
           </EmptyState>
         ) : (
-          nfts.map(nft => (
+          ownedNFTs.map((tokenId) => (
             <NFTCard 
-              key={nft.id}
-              id={nft.id}
-              imageUrl={nft.imageUrl}
-              name={nft.name}
-              rarity={nft.rarity}
+              key={tokenId}
+              id={tokenId}
+              imageUrl={`/nft/images/${tokenId}.png`}
+              name={`DinoByte`}
+              rarity={`Rarity ${tokenId}` as "common" | "rare" | "epic" | "legendary"}
             />
           ))
         )}

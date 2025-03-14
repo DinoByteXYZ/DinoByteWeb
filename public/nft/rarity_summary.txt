@@ -1,0 +1,22 @@
+NFT生成统计报告
+生成时间: 2025/3/12 00:01:23
+总数: 2000个NFT
+
+稀有度分布:
+预期分布:
+- 传说级 (LEGENDARY): 1%
+- 史诗级 (EPIC): 10%
+- 稀有级 (RARE): 20%
+- 普通级 (COMMON): 70%
+
+实际分布:
+- 传说级 (LEGENDARY): 1.00% (20个)
+- 史诗级 (EPIC): 9.00% (180个)
+- 稀有级 (RARE): 20.00% (400个)
+- 普通级 (COMMON): 70.00% (1400个)
+
+注意事项:
+- 所有LEGENDARY级别的NFT都包含Champion挂件
+- 所有LEGENDARY级别的NFT都排除了以下CLOTHING: Match, ShortB, ShortD, ShortE, Super, SweaterC, SweaterL, SweaterO, VestE
+- 所有EPIC级别的NFT都包含Angel帽子
+- 所有NFT都包含必需特征: BACKGROUND, BODY, BRISTLEBACK, EYE, TEETH, CLOTHING

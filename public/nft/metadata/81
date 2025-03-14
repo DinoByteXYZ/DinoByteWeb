@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #81",
+  "image": "https://dinobyte.xyz/nft/image/81.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Red"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortF"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Confused"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Splash"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/81"
+}

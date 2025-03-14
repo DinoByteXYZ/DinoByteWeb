@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #54",
+  "image": "https://dinobyte.xyz/nft/image/54.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Green"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterC"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Confused"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/54"
+}

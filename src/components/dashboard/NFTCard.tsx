@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import Button from '../common/Button';
+import rarityReport from '../../rarity_report.json';  // 导入 JSON 文件
 
 interface NFTCardProps {
   id: number;
@@ -15,6 +16,11 @@ const rarityColors = {
   rare: '#4444ff',
   epic: '#aa44ff',
   legendary: '#ffaa00',
+  COMMON: '#808080',
+  UNCOMMON: '#00FF00',
+  RARE: '#0000FF',
+  EPIC: '#800080',
+  LEGENDARY: '#FFD700'
 };
 
 const CardContainer = styled.div`
@@ -87,6 +93,13 @@ const NFTActions = styled.div`
   margin-top: auto;
 `;
 
+// 添加类型定义
+interface NFTDetail {
+  id: number;
+  rarity: string;
+  traitsCount: number;
+}
+
 const NFTCard: React.FC<NFTCardProps> = ({ id, imageUrl, name, rarity }) => {
   const rarityText = {
     common: 'COMMOM ',
@@ -95,19 +108,26 @@ const NFTCard: React.FC<NFTCardProps> = ({ id, imageUrl, name, rarity }) => {
     legendary: 'LEGENDARY ',
   };
   
+  // 从 JSON 文件中查找对应 ID 的 NFT 详情
+  const nftDetail = rarityReport.detailedNFTList.find(
+    (nft: NFTDetail) => nft.id === id
+  );
+
   return (
     <CardContainer>
       <NFTImage rarity={rarity}>
         <img src={imageUrl} alt={name} />
       </NFTImage>
       <NFTInfo>
-        <NFTName>{name} #{id}</NFTName>
-        <NFTRarity rarity={rarity}>{rarityText[rarity]}</NFTRarity>
+        <NFTName>DinoByte #{id}</NFTName>
+        <NFTRarity rarity={nftDetail?.rarity as RarityType || 'UNKNOWN'}>
+          {nftDetail?.rarity || 'UNKNOWN'}
+        </NFTRarity>
       </NFTInfo>
       <NFTActions>
-        <Link to="/marketplace">
+        <a href='https://paintswap.io/' target='_blank'>
           <Button outlined size="small">List for sale</Button>
-        </Link>
+        </a>
       </NFTActions>
     </CardContainer>
   );

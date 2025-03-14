@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #123",
+  "image": "https://dinobyte.xyz/nft/image/123.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Poison"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterA"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Confused"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/123"
+}

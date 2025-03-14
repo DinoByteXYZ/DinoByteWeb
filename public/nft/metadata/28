@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #28",
+  "image": "https://dinobyte.xyz/nft/image/28.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Sea"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Temptation"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortG"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Worker"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Doze"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/28"
+}

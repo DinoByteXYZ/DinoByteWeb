@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #64",
+  "image": "https://dinobyte.xyz/nft/image/64.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortG"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Green"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Pearl"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/64"
+}

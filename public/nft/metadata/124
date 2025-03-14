@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #124",
+  "image": "https://dinobyte.xyz/nft/image/124.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Red"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Topaz"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Play"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortM"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Confused"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Bleb"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/124"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #167",
+  "image": "https://dinobyte.xyz/nft/image/167.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Topaz"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Temptation"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortJ"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Driver"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Flame"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/167"
+}

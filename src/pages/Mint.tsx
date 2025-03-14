@@ -3,9 +3,9 @@ import styled, { keyframes } from 'styled-components';
 import Navbar from '../components/common/Navbar';
 import Button from '../components/common/Button';
 import MintProgress from '../components/mint/MintProgress';
-// import { useWallet } from '../contexts/WalletContext';
-// import { useMint } from '../hooks/useMint';
-
+import { useMintNFT } from '../hooks/useMintNFT';
+import { ethers } from 'ethers';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 const glitch = keyframes`
   0% {
     transform: translate(0);
@@ -83,6 +83,24 @@ const Title = styled.h1`
   }
 `;
 
+const MintedTitle = styled.h2`
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: ${props => props.theme.colors.light};
+  text-shadow: 
+    3px 3px 0 ${props => props.theme.colors.primary},
+    6px 6px 0 ${props => props.theme.colors.dark};
+  animation: ${glitch} 3s infinite alternate;
+  
+  @media (max-width: ${props => props.theme.breakpoints.tablet}) {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+    font-size: 1rem;
+  }
+`;
 const MintTitle = styled.h2`
   text-align: center;
   margin-bottom: 1rem;
@@ -172,15 +190,55 @@ const QuantityInput = styled.input`
   }
 `;
 
+
+const LoadingOverlay = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+`;
+
+const LoadingContent = styled.div`
+  color: ${props => props.theme.colors.light};
+  text-align: center;
+  font-family: ${props => props.theme.fonts.tech};
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 3px solid ${props => props.theme.colors.primary};
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+`;
+
+const ConnectButtonWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+`;
+
 const Mint: React.FC = () => {
   const connected = true;
   const connectWallet = () => {
     console.log('Connect Wallet');
   };
-  // const { mintPrice, totalSupply, mintedCount, isMinting, mint } = useMint();
-  const mintPrice = 199;
-  const totalSupply = 2000;
-  const mintedCount = 0;
+  const { isConnected, mintPrice, totalSupply, mintedCount, isMinting,isRegistered, mint, earlyMint, isEarlyMinted } = useMintNFT();
+  const priceMintETH = ethers.formatEther(mintPrice); 
   const mintMax = 100;
   const [quantity, setQuantity] = useState(1);
   
@@ -228,14 +286,30 @@ const Mint: React.FC = () => {
     }
   };
 
-  const handleMint = () => {
-    alert("Time not yet"); 
+  const handleMint = async () => {
+    try {
+      await mint(quantity);
+    } catch (error) {
+      alert("Failed, please try again");
+      console.error('error:', error);
+    }
+  };
+  const handleEarlyMint  = async () => {
+    try {
+      await earlyMint();
+      console.log('success');
+    } catch (error) {
+      alert("Failed, please try again");
+      console.error('error:', error);
+    }
   };
   
   return (
     <MintPageContainer>
       <Navbar />
       <MintSection>
+      {isConnected?
+            <>
         <MintCard>
           <MintTitle>Mint DinoByte NFT</MintTitle>
           
@@ -244,53 +318,85 @@ const Mint: React.FC = () => {
           <NFTPreview>
             <img src="/images/legendary.png" alt="DinoByte NFT Preview" />
           </NFTPreview>
-          <MintPrice>
-            Price: {mintPrice} S
-            {quantity > 1 && ` (Total: ${(Number(mintPrice) * quantity).toFixed(2)} S)`}
-          </MintPrice>
-          
-          <QuantitySelector>
-            <QuantityButton onClick={decreaseQuantity}>-</QuantityButton>
-            <QuantityInput
-              type="number"
-              min="1"
-              max={mintMax}
-              value={quantity || ''}
-              onChange={handleInputChange}
-              onBlur={handleBlur}
-            />
-            <QuantityButton onClick={increaseQuantity}>+</QuantityButton>
-          </QuantitySelector>
-          <MintPrice>
-            MAX:100 per wallet
-          </MintPrice>
-          <MintButtonContainer>
-            <Button 
-              primary 
-              size="large" 
-              glowing={true}
-              onClick={handleMint}
-            >
-              {`Mint ${quantity} NFT${quantity > 1 ? 's' : ''}`}
-            </Button>
-          </MintButtonContainer>
 
-          <MintPrice>
-           WhiteList Price: FREE
-          </MintPrice>
           
-          <MintButtonContainer>
-            <Button 
-              primary 
-              size="large" 
-              glowing={true}
-              onClick={handleMint}
-            >
-              {'WL Mint'}
-            </Button>
-          </MintButtonContainer>
+            <MintPrice>
+              Price: {priceMintETH} S
+              {quantity > 1 && ` (Total: ${(Number(priceMintETH) * quantity).toFixed(2)} S)`}
+            </MintPrice>
+            
+            <QuantitySelector>
+              <QuantityButton onClick={decreaseQuantity}>-</QuantityButton>
+              <QuantityInput
+                type="number"
+                min="1"
+                max={mintMax}
+                value={quantity || ''}
+                onChange={handleInputChange}
+                onBlur={handleBlur}
+              />
+              <QuantityButton onClick={increaseQuantity}>+</QuantityButton>
+            </QuantitySelector>
+            <MintPrice>
+              MAX:100 per wallet
+            </MintPrice>
+            <MintButtonContainer>
+              <Button 
+                primary 
+                size="large" 
+                glowing={true}
+                onClick={handleMint}
+              >
+                {`Mint ${quantity} NFT${quantity > 1 ? 's' : ''}`}
+              </Button>
+            </MintButtonContainer>
+
+            <>
+            {isRegistered?
+              <>
+              {isEarlyMinted ? (
+                  <MintedTitle>You WhiteList have been Minted</MintedTitle>
+                  ) : (
+                    <MintPrice>WhiteList Price: FREE</MintPrice>
+                  )}
+                  <MintButtonContainer>
+                    {isEarlyMinted ? (
+                      <Button glowing size="large">
+                        Minted
+                      </Button>
+                    ) : (
+                      <Button 
+                        size="large" 
+                        glowing={true}
+                        onClick={handleEarlyMint}
+                      >
+                        {'WL Mint'}
+                      </Button>
+                    )}
+                  </MintButtonContainer>
+                  
+                </>
+                :
+                <MintPrice></MintPrice>
+              }
+            </>
+         
         </MintCard>
+         : </>
+         :
+           <ConnectButtonWrapper>
+             <ConnectButton />
+           </ConnectButtonWrapper>
+       }
       </MintSection>
+      {isMinting && (
+        <LoadingOverlay>
+          <LoadingContent>
+            <div className="spinner" />
+            <div>Loading...</div>
+          </LoadingContent>
+        </LoadingOverlay>
+      )}
     </MintPageContainer>
   );
 };

@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #154",
+  "image": "https://dinobyte.xyz/nft/image/154.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Play"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortJ"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Angel"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Flame"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/154"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #85",
+  "image": "https://dinobyte.xyz/nft/image/85.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Cool"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Topaz"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Play"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortC"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Distance"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Pearl"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/85"
+}
