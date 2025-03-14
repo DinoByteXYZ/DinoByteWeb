@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #271",
+  "image": "https://dinobyte.xyz/nft/image/271.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Refreshing"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Red"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Temptation"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterE"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Driver"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Happy"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/271"
+}

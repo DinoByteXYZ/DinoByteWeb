@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #201",
+  "image": "https://dinobyte.xyz/nft/image/201.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Cool"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Confusion"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Temptation"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortB"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Guard"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/201"
+}

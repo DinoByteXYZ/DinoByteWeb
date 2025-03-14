@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #738",
+  "image": "https://dinobyte.xyz/nft/image/738.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Unrestrained"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortA"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Worker"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/738"
+}

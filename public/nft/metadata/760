@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #760",
+  "image": "https://dinobyte.xyz/nft/image/760.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Cool"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Temptation"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "Match"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Distance"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/760"
+}

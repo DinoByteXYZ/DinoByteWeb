@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #734",
+  "image": "https://dinobyte.xyz/nft/image/734.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortL"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Angel"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/734"
+}

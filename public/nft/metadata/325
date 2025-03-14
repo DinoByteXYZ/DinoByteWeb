@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #325",
+  "image": "https://dinobyte.xyz/nft/image/325.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Unrestrained"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Fashion"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "N23"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Guard"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/325"
+}

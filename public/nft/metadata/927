@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #927",
+  "image": "https://dinobyte.xyz/nft/image/927.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Passion"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterO"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Boxing"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/927"
+}

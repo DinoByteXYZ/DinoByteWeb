@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #832",
+  "image": "https://dinobyte.xyz/nft/image/832.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Refreshing"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Topaz"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortE"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Worker"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Doze"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/832"
+}

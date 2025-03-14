@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #448",
+  "image": "https://dinobyte.xyz/nft/image/448.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Passion"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Poison"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestB"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Driver"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/448"
+}

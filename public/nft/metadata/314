@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #314",
+  "image": "https://dinobyte.xyz/nft/image/314.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Refreshing"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Unrestrained"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Green"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Fashion"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterC"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Green"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/314"
+}

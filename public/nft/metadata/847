@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #847",
+  "image": "https://dinobyte.xyz/nft/image/847.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Passion"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterA"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Guard"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/847"
+}

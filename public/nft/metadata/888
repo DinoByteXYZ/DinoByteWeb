@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #888",
+  "image": "https://dinobyte.xyz/nft/image/888.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Sea"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Green"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestH"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Worker"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/888"
+}

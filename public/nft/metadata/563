@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #563",
+  "image": "https://dinobyte.xyz/nft/image/563.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Black"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortD"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Green"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/563"
+}

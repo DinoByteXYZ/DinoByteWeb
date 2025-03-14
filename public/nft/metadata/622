@@ -1,0 +1,35 @@
+{
+    "name": "DinoByte #622",
+    "image": "https://dinobyte.xyz/nft/image/622.png",
+    "attributes": [
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Mysterious"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Land"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Orange"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Topaz"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Complex"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "ShortA"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Boxing"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/622"
+}

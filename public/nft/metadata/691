@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #691",
+  "image": "https://dinobyte.xyz/nft/image/691.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Passion"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Unrestrained"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Red"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterE"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Driver"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Happy"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/691"
+}

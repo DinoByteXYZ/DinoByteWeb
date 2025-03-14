@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #223",
+  "image": "https://dinobyte.xyz/nft/image/223.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Brisk"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Green"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Play"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortH"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Green"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/223"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #370",
+  "image": "https://dinobyte.xyz/nft/image/370.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Red"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Complex"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterK"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Worker"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/370"
+}

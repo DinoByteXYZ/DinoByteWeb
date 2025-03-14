@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #879",
+  "image": "https://dinobyte.xyz/nft/image/879.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortE"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Angel"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/879"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #590",
+  "image": "https://dinobyte.xyz/nft/image/590.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Refreshing"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Sea"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortG"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Green"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/590"
+}

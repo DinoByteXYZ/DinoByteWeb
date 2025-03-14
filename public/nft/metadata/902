@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #902",
+  "image": "https://dinobyte.xyz/nft/image/902.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortJ"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Driver"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Angry"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/902"
+}

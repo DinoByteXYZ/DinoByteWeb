@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #432",
+  "image": "https://dinobyte.xyz/nft/image/432.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Sea"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Poison"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterA"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Angel"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/432"
+}

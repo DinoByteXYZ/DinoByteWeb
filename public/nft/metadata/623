@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #623",
+  "image": "https://dinobyte.xyz/nft/image/623.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Brisk"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Poison"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortB"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Worker"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Angry"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/623"
+}

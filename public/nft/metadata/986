@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #986",
+  "image": "https://dinobyte.xyz/nft/image/986.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Sea"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterM"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Green"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/986"
+}

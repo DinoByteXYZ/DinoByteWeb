@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #708",
+  "image": "https://dinobyte.xyz/nft/image/708.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Unrestrained"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "N23"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Angel"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/708"
+}

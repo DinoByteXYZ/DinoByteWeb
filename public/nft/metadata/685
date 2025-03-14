@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #685",
+  "image": "https://dinobyte.xyz/nft/image/685.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Unrestrained"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortK"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Boxing"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/685"
+}

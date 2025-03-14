@@ -1,0 +1,35 @@
+{
+    "name": "DinoByte #759",
+    "image": "https://dinobyte.xyz/nft/image/759.png",
+    "attributes": [
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Passion"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Brisk"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Black"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Topaz"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Poison"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "SweaterN"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Distance"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/759"
+}

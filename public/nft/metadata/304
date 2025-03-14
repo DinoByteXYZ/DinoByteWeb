@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #304",
+  "image": "https://dinobyte.xyz/nft/image/304.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Fashion"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestB"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Distance"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Happy"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/304"
+}

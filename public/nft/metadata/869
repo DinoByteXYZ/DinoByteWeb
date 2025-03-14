@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #869",
+  "image": "https://dinobyte.xyz/nft/image/869.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Cool"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Black"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Play"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterB"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Worker"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/869"
+}

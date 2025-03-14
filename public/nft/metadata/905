@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #905",
+  "image": "https://dinobyte.xyz/nft/image/905.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestB"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Angel"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/905"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #562",
+  "image": "https://dinobyte.xyz/nft/image/562.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Brisk"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Black"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Temptation"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterN"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Green"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/562"
+}

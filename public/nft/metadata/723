@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #723",
+  "image": "https://dinobyte.xyz/nft/image/723.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Refreshing"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Green"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortC"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Driver"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/723"
+}

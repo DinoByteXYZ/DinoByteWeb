@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #620",
+  "image": "https://dinobyte.xyz/nft/image/620.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Cool"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Unrestrained"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Black"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortF"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Angel"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/620"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #631",
+  "image": "https://dinobyte.xyz/nft/image/631.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Cool"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Unrestrained"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestF"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Green"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/631"
+}

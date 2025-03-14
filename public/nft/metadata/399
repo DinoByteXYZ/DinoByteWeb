@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #399",
+  "image": "https://dinobyte.xyz/nft/image/399.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Black"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Complex"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortF"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Distance"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/399"
+}

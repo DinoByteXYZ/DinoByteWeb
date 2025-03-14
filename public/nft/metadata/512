@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #512",
+  "image": "https://dinobyte.xyz/nft/image/512.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Brisk"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Green"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Temptation"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortJ"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Confused"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Happy"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/512"
+}

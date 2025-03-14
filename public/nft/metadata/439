@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #439",
+  "image": "https://dinobyte.xyz/nft/image/439.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Unrestrained"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Red"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Topaz"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterG"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Boxing"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/439"
+}

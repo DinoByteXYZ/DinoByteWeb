@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #721",
+  "image": "https://dinobyte.xyz/nft/image/721.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestD"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Distance"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/721"
+}

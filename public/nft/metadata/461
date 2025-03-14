@@ -1,0 +1,35 @@
+{
+    "name": "DinoByte #461",
+    "image": "https://dinobyte.xyz/nft/image/461.png",
+    "attributes": [
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Fiery"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Rainbow"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Red"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Confusion"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Play"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "VestD"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Angel"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/461"
+}

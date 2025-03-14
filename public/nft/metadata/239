@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #239",
+  "image": "https://dinobyte.xyz/nft/image/239.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Passion"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestC"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Guard"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/239"
+}

@@ -1,0 +1,35 @@
+{
+    "name": "DinoByte #312",
+    "image": "https://dinobyte.xyz/nft/image/312.png",
+    "attributes": [
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Mysterious"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Unrestrained"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Red"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Emerald"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Poison"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "ShortH"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Boxing"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/312"
+}

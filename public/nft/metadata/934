@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #934",
+  "image": "https://dinobyte.xyz/nft/image/934.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Passion"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Brisk"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Red"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestF"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Confused"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Doze"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/934"
+}

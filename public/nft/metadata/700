@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #700",
+  "image": "https://dinobyte.xyz/nft/image/700.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Sea"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "N11"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Boxing"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/700"
+}

@@ -1,0 +1,35 @@
+{
+    "name": "DinoByte #727",
+    "image": "https://dinobyte.xyz/nft/image/727.png",
+    "attributes": [
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Mysterious"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Ink"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Green"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Emerald"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Fashion"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "SweaterH"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Green"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/727"
+}

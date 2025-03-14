@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #419",
+  "image": "https://dinobyte.xyz/nft/image/419.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Passion"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Brisk"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Black"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Topaz"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Play"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "N11"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Worker"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Bleb"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/419"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #581",
+  "image": "https://dinobyte.xyz/nft/image/581.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Passion"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Play"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterM"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Guard"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/581"
+}

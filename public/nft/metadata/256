@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #256",
+  "image": "https://dinobyte.xyz/nft/image/256.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Cool"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Brisk"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestB"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Distance"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/256"
+}

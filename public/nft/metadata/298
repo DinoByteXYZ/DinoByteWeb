@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #298",
+  "image": "https://dinobyte.xyz/nft/image/298.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Green"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestF"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Driver"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Bleb"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/298"
+}

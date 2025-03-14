@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #402",
+  "image": "https://dinobyte.xyz/nft/image/402.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Cool"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Temptation"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterH"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Boxing"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/402"
+}

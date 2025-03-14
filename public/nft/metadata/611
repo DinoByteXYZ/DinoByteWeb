@@ -1,0 +1,35 @@
+{
+    "name": "DinoByte #611",
+    "image": "https://dinobyte.xyz/nft/image/611.png",
+    "attributes": [
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Lovely"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Sea"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Yellow"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Fire"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Sweet"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "SweaterB"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Driver"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/611"
+}

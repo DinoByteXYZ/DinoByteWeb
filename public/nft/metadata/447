@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #447",
+  "image": "https://dinobyte.xyz/nft/image/447.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Temptation"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterL"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Driver"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/447"
+}

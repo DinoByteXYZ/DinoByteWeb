@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #640",
+  "image": "https://dinobyte.xyz/nft/image/640.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Green"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "Super"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Angel"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Happy"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/640"
+}

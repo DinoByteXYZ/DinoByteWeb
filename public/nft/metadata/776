@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #776",
+  "image": "https://dinobyte.xyz/nft/image/776.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Refreshing"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Red"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Complex"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "Fresh"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Green"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Angry"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/776"
+}

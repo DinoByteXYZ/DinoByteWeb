@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #982",
+  "image": "https://dinobyte.xyz/nft/image/982.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Unrestrained"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Green"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Confusion"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortM"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Guard"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Pearl"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/982"
+}

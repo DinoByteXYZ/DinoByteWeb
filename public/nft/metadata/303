@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #303",
+  "image": "https://dinobyte.xyz/nft/image/303.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Brisk"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterK"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Driver"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/303"
+}

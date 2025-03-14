@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #606",
+  "image": "https://dinobyte.xyz/nft/image/606.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Refreshing"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Unrestrained"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Shedtears"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Fashion"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterE"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Angel"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Pearl"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/606"
+}

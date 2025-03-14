@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #793",
+  "image": "https://dinobyte.xyz/nft/image/793.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Mysterious"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Brisk"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Red"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Confusion"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterE"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Distance"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Splash"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/793"
+}

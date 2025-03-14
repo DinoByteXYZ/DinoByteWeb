@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #294",
+  "image": "https://dinobyte.xyz/nft/image/294.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Refreshing"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Confusion"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Complex"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortF"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Distance"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/294"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #306",
+  "image": "https://dinobyte.xyz/nft/image/306.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Fashion"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestA"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Driver"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/306"
+}

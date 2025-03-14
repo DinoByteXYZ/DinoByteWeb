@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #283",
+  "image": "https://dinobyte.xyz/nft/image/283.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Complex"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterG"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Worker"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/283"
+}

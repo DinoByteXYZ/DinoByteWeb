@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #433",
+  "image": "https://dinobyte.xyz/nft/image/433.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Confusion"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortK"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Boxing"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Splash"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/433"
+}

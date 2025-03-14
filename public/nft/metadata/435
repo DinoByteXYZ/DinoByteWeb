@@ -1,0 +1,35 @@
+{
+    "name": "DinoByte #435",
+    "image": "https://dinobyte.xyz/nft/image/435.png",
+    "attributes": [
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Mysterious"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Ink"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Orange"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Shedtears"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Vague"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "ShortM"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Guard"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/435"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #234",
+  "image": "https://dinobyte.xyz/nft/image/234.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Refreshing"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Ink"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Contempt"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterI"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Worker"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Doze"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/234"
+}

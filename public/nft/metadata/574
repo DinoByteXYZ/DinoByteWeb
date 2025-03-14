@@ -1,0 +1,35 @@
+{
+    "name": "DinoByte #574",
+    "image": "https://dinobyte.xyz/nft/image/574.png",
+    "attributes": [
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Refreshing"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Brisk"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Shedtears"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Poison"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "SweaterG"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Angel"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/574"
+}

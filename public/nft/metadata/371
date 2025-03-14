@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #371",
+  "image": "https://dinobyte.xyz/nft/image/371.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Sea"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Topaz"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterB"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Worker"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Pearl"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/371"
+}

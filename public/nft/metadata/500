@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #500",
+  "image": "https://dinobyte.xyz/nft/image/500.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Cool"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Sea"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "N11"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Angel"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Bleb"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/500"
+}

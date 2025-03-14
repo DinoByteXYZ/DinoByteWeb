@@ -1,0 +1,35 @@
+{
+    "name": "DinoByte #990",
+    "image": "https://dinobyte.xyz/nft/image/990.png",
+    "attributes": [
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Cool"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Rainbow"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Orange"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Emerald"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Flight"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "SweaterF"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Boxing"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/990"
+}

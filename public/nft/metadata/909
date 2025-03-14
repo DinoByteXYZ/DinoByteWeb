@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #909",
+  "image": "https://dinobyte.xyz/nft/image/909.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Lovely"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Land"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Red"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Vague"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "VestH"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Distance"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Doze"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/909"
+}

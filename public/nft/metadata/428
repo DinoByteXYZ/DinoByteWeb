@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #428",
+  "image": "https://dinobyte.xyz/nft/image/428.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Refreshing"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Brisk"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Green"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortM"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Boxing"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "Bleb"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/428"
+}

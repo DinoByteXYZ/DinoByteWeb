@@ -1,0 +1,39 @@
+{
+  "name": "DinoByte #258",
+  "image": "https://dinobyte.xyz/nft/image/258.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Refreshing"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Sea"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Play"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "SweaterH"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Angel"
+    },
+    {
+      "trait_type": "NOSE",
+      "value": "Angry"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/258"
+}

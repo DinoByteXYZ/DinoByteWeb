@@ -1,0 +1,35 @@
+{
+  "name": "DinoByte #677",
+  "image": "https://dinobyte.xyz/nft/image/677.png",
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "Fiery"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "Sea"
+    },
+    {
+      "trait_type": "BRISTLEBACK",
+      "value": "Black"
+    },
+    {
+      "trait_type": "EYE",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "TEETH",
+      "value": "Flight"
+    },
+    {
+      "trait_type": "CLOTHING",
+      "value": "ShortF"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Confused"
+    }
+  ],
+  "external_url": "https://dinobyte.xyz/nft/metadata/677"
+}
