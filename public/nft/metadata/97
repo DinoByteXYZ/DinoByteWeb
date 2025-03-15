@@ -1,35 +1,47 @@
 {
-  "name": "DinoByte #97",
-  "image": "https://dinobyte.xyz/nft/image/97.png",
-  "attributes": [
-    {
-      "trait_type": "BACKGROUND",
-      "value": "Lovely"
-    },
-    {
-      "trait_type": "BODY",
-      "value": "Ink"
-    },
-    {
-      "trait_type": "BRISTLEBACK",
-      "value": "Black"
-    },
-    {
-      "trait_type": "EYE",
-      "value": "Contempt"
-    },
-    {
-      "trait_type": "TEETH",
-      "value": "Play"
-    },
-    {
-      "trait_type": "CLOTHING",
-      "value": "SweaterE"
-    },
-    {
-      "trait_type": "HAT",
-      "value": "Boxing"
-    }
-  ],
-  "external_url": "https://dinobyte.xyz/nft/metadata/97"
+    "name": "DinoByte #97",
+    "image": "https://dinobyte.xyz/nft/image/97.png",
+    "attributes": [
+        {
+            "trait_type": "PENDANTS",
+            "value": "Champion"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "ShortC"
+        },
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Fiery"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Land"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Yellow"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Ruby"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Vague"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Distance"
+        },
+        {
+            "trait_type": "MOUTH",
+            "value": "Pearl"
+        },
+        {
+            "trait_type": "NOSE",
+            "value": "Happy"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/97"
 }

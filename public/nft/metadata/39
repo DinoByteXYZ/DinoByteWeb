@@ -1,35 +1,43 @@
 {
-  "name": "DinoByte #39",
-  "image": "https://dinobyte.xyz/nft/image/39.png",
-  "attributes": [
-    {
-      "trait_type": "BACKGROUND",
-      "value": "Passion"
-    },
-    {
-      "trait_type": "BODY",
-      "value": "Rainbow"
-    },
-    {
-      "trait_type": "BRISTLEBACK",
-      "value": "Blue"
-    },
-    {
-      "trait_type": "EYE",
-      "value": "Fire"
-    },
-    {
-      "trait_type": "TEETH",
-      "value": "Fashion"
-    },
-    {
-      "trait_type": "CLOTHING",
-      "value": "ShortD"
-    },
-    {
-      "trait_type": "HAT",
-      "value": "Worker"
-    }
-  ],
-  "external_url": "https://dinobyte.xyz/nft/metadata/39"
+    "name": "DinoByte #39",
+    "image": "https://dinobyte.xyz/nft/image/39.png",
+    "attributes": [
+        {
+            "trait_type": "HAT",
+            "value": "Angel"
+        },
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Mysterious"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Ink"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Yellow"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Contempt"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Temptation"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "SweaterM"
+        },
+        {
+            "trait_type": "MOUTH",
+            "value": "Bleb"
+        },
+        {
+            "trait_type": "NOSE",
+            "value": "Happy"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/39"
 }

@@ -27,7 +27,7 @@ const glitch = keyframes`
 const HeroSection = styled.section`
   height: 70vh;
   display: flex;
-  padding-top: 5vh;
+  padding-top: 10vh;
   padding-bottom: 5vh;
   flex-direction: column;
   justify-content: center;

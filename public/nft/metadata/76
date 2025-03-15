@@ -1,39 +1,43 @@
 {
-  "name": "DinoByte #76",
-  "image": "https://dinobyte.xyz/nft/image/76.png",
-  "attributes": [
-    {
-      "trait_type": "BACKGROUND",
-      "value": "Fiery"
-    },
-    {
-      "trait_type": "BODY",
-      "value": "Unrestrained"
-    },
-    {
-      "trait_type": "BRISTLEBACK",
-      "value": "Blue"
-    },
-    {
-      "trait_type": "EYE",
-      "value": "Confusion"
-    },
-    {
-      "trait_type": "TEETH",
-      "value": "Complex"
-    },
-    {
-      "trait_type": "CLOTHING",
-      "value": "ShortK"
-    },
-    {
-      "trait_type": "HAT",
-      "value": "Distance"
-    },
-    {
-      "trait_type": "NOSE",
-      "value": "Happy"
-    }
-  ],
-  "external_url": "https://dinobyte.xyz/nft/metadata/76"
+    "name": "DinoByte #76",
+    "image": "https://dinobyte.xyz/nft/image/76.png",
+    "attributes": [
+        {
+            "trait_type": "HAT",
+            "value": "Angel"
+        },
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Mysterious"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Brisk"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Red"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Confusion"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Fashion"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "N23"
+        },
+        {
+            "trait_type": "MOUTH",
+            "value": "Pearl"
+        },
+        {
+            "trait_type": "NOSE",
+            "value": "Happy"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/76"
 }

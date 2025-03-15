@@ -1,35 +1,47 @@
 {
-  "name": "DinoByte #98",
-  "image": "https://dinobyte.xyz/nft/image/98.png",
-  "attributes": [
-    {
-      "trait_type": "BACKGROUND",
-      "value": "Mysterious"
-    },
-    {
-      "trait_type": "BODY",
-      "value": "Rainbow"
-    },
-    {
-      "trait_type": "BRISTLEBACK",
-      "value": "Red"
-    },
-    {
-      "trait_type": "EYE",
-      "value": "Fire"
-    },
-    {
-      "trait_type": "TEETH",
-      "value": "Fashion"
-    },
-    {
-      "trait_type": "CLOTHING",
-      "value": "ShortJ"
-    },
-    {
-      "trait_type": "HAT",
-      "value": "Worker"
-    }
-  ],
-  "external_url": "https://dinobyte.xyz/nft/metadata/98"
+    "name": "DinoByte #98",
+    "image": "https://dinobyte.xyz/nft/image/98.png",
+    "attributes": [
+        {
+            "trait_type": "PENDANTS",
+            "value": "Champion"
+        },
+        {
+            "trait_type": "CLOTHING",
+            "value": "VestD"
+        },
+        {
+            "trait_type": "BACKGROUND",
+            "value": "Cool"
+        },
+        {
+            "trait_type": "BODY",
+            "value": "Rainbow"
+        },
+        {
+            "trait_type": "BRISTLEBACK",
+            "value": "Green"
+        },
+        {
+            "trait_type": "EYE",
+            "value": "Topaz"
+        },
+        {
+            "trait_type": "TEETH",
+            "value": "Temptation"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Guard"
+        },
+        {
+            "trait_type": "MOUTH",
+            "value": "Pearl"
+        },
+        {
+            "trait_type": "NOSE",
+            "value": "Doze"
+        }
+    ],
+    "external_url": "https://dinobyte.xyz/nft/metadata/98"
 }
