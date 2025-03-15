@@ -6,11 +6,27 @@ const glow = keyframes`
   50% { box-shadow: 0 0 20px currentColor; }
   100% { box-shadow: 0 0 5px currentColor; }
 `;
-
+const CTASection = styled.section`
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+              url('/images/cta-bg.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+`;
 const RarityContainer = styled.section`
   padding: 5rem 2rem;
   background-color: ${props => props.theme.colors.darker};
   position: relative;
+   &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: ${props => props.theme.colors.gradients.primary};
+  }
 `;
 
 const SectionTitle = styled.h2`

@@ -17,10 +17,10 @@ const Home: React.FC = () => {
   return (
     <HomeContainer>
       <Navbar transparent={true} />
-      <MintCTA />
+      {/* <MintCTA /> */}
       <Hero />
-      <About />
       <RaritySection />
+      <About />
       <Footer />
     </HomeContainer>
   );

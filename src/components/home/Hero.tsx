@@ -25,10 +25,10 @@ const glitch = keyframes`
 `;
 
 const HeroSection = styled.section`
-  height: 50vh;
+  height: 70vh;
   display: flex;
   padding-top: 5vh;
-  margin-bottom: 10vh;
+  padding-bottom: 5vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -176,7 +176,10 @@ return () => clearInterval(timer);
         <Subtitle>
           DinoByte isn't just an NFT—we're building a new asset protocol on Sonic. A protocol where ownership, liquidity, and utility converge.
         </Subtitle>
-        <CountdownContainer>
+        <Subtitle>
+          CA: 0x4f77c84c2dfb8b1d985571e3e3bc2129a54c4e10
+        </Subtitle>
+        {/* <CountdownContainer>
             <CountdownItem>
               <div className="number">{countdown.days}</div>
               <div className="label">D</div>
@@ -193,7 +196,7 @@ return () => clearInterval(timer);
               <div className="number">{countdown.seconds}</div>
               <div className="label">S</div>
             </CountdownItem>
-          </CountdownContainer>
+          </CountdownContainer> */}
         <ButtonGroup>
           <Link to="/mint">
             <Button primary glowing size="large">

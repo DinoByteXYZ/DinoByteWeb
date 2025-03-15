@@ -123,7 +123,7 @@ const NFTCard: React.FC<NFTCardProps> = ({ id, imageUrl, name, rarity }) => {
         </NFTRarity>
       </NFTInfo>
       <NFTActions>
-        <a href='https://paintswap.io/' target='_blank'>
+        <a href='https://paintswap.io/sonic/collections/0x4f77c84c2dfb8b1d985571e3e3bc2129a54c4e10/nfts' target='_blank'>
           <Button outlined size="small">List for sale</Button>
         </a>
       </NFTActions>
