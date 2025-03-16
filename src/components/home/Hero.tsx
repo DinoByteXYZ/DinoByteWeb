@@ -25,7 +25,7 @@ const glitch = keyframes`
 `;
 
 const HeroSection = styled.section`
-  height: 70vh;
+  height: 80vh;
   display: flex;
   padding-top: 10vh;
   padding-bottom: 5vh;
