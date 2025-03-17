@@ -172,7 +172,7 @@ return () => clearInterval(timer);
       <HeroContent>
         <Title>🦖 Awaken the DinoByte and possess the legend</Title>
         <Subtitle>
-          DinoByte isn't just an NFT—we're building a new asset protocol on Sonic. A protocol where ownership, liquidity, and utility converge.
+        DinoByte is an innovative NFT + DeFi ecosystem built on Sonic Chain, with the ultimate goal of evolving into a synthetic asset protocol.
         </Subtitle>
         <Subtitle>
           CA: 0x4f77c84c2dfb8b1d985571e3e3bc2129a54c4e10
