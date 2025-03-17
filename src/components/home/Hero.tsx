@@ -163,12 +163,10 @@ setCountdown(calculateTimeLeft());}, 1000);
 return () => clearInterval(timer);
 }, []);
 
-  const handleScrollToAbout = () => {
-    const aboutSection = document.getElementById('about');
-    if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: 'smooth' });
-    }
+  const handleLearnMore = () => {
+    window.open('https://dinobytenfts-organization.gitbook.io/the-evolution-from-nft-to-defi', '_blank');
   };
+
   return (
     <HeroSection>
       <HeroContent>
@@ -203,11 +201,9 @@ return () => clearInterval(timer);
               Mint now
             </Button>
           </Link>
-          <a >
-            <Button outlined size="large" onClick={handleScrollToAbout}>
-              Learn more
-            </Button>
-          </a>
+          <Button outlined size="large" onClick={handleLearnMore}>
+            learn more
+          </Button>
         </ButtonGroup>
       </HeroContent>
     </HeroSection>

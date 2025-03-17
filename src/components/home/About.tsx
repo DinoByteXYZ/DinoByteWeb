@@ -98,16 +98,16 @@ const About: React.FC = () => {
       <AboutContent>
         <AboutText>
           <Paragraph>
-            DinoByte NFT is a limited edition digital collectible with unique evolutionary systems and gaming experiences. Join the DinoByte universe now!
+          DinoByte is an innovative NFT + DeFi ecosystem built on Sonic Chain, with the ultimate goal of evolving into a synthetic asset protocol.
           </Paragraph>
           <Paragraph>
-            In the ancient digital wasteland, DinoByte was created to guard the data treasures. As time passed, they evolved into different shapes and abilities, becoming the strongest creatures in the digital world.
+          Unlike traditional NFT projects that remain static collectibles, DinoByte is designed to unlock deeper financial value and ecosystem integration!
           </Paragraph>
           <PixelList>
-            <li>Each DinoByte is a unique NFT generated entirely from on-chain data</li>
-            <li>Holders can participate in our evolutionary system to combine multiple DinoBytes into rarer forms</li>
-            <li>Future plans include a pixel DinoByte battle game and DAO governance system</li>
-            <li>Early holders will receive exclusive airdrops and game privileges</li>
+            <li>NFT Staking → Stake DinoByte NFTs to mine $DINO tokens.</li>
+            <li>DINO Token as Collateral → $DINO will be used as collateral for synthetic assets.</li>
+            <li>Debt Pool Mechanism → A shared debt pool ensures the stability of synthetic assets and allows for seamless minting and trading.</li>
+            <li>Beyond NFTs → DinoByte NFTs and $DINO will integrate into various DeFi utilities, creating a sustainable on-chain economy.</li>
           </PixelList>
         </AboutText>
         <AboutImage>

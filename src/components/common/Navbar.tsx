@@ -78,7 +78,13 @@ const MobileMenu = styled.div<{isOpen: boolean}>`
   border-bottom: 2px solid ${props => props.theme.colors.primary};
 `;
 
-const NavItem  = styled(Link)<{active: boolean; transparent?: boolean}>`
+const NavItem = styled(({ isExternal, to, href, ...props }) => 
+  isExternal ? (
+    <a href={href} target="_blank" rel="noopener noreferrer" {...props} />
+  ) : (
+    <Link to={to} {...props} />
+  )
+)`
   font-family: ${props => props.theme.fonts.pixel};
   font-size: 24px;
   text-align: center;
@@ -123,6 +129,7 @@ const NavItemUnderline = styled.div<{active: boolean}>`
   background-color: ${props => props.theme.colors.primary} !important;
   transition: width 0.3s ease;
 `;
+
 const Title = styled.h1`
   font-size: 3rem;
   margin-bottom: 1.5rem;
@@ -140,6 +147,17 @@ const Title = styled.h1`
   }
 `;
 
+// 添加外部链接样式组件
+const ExternalNavItem = styled.a`
+  color: ${props => props.theme.colors.light};
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s;
+  
+  &:hover {
+    color: ${props => props.theme.colors.primary};
+  }
+`;
 
 const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -170,6 +188,12 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
         <NavItem to="/" active={location.pathname === '/'}>Home</NavItem>
         <NavItem to="/mint" active={location.pathname === '/mint'}>Mint</NavItem>
         <NavItem to="/dashboard" active={location.pathname === '/dashboard'}>My NFT</NavItem>
+        <NavItem 
+          isExternal 
+          href="https://dinobytenfts-organization.gitbook.io/the-evolution-from-nft-to-defi"
+        >
+          Docs
+        </NavItem>
       </MenuItems>
         <ConnectButton />
       <MobileMenuButton onClick={toggleMobileMenu}>
@@ -180,6 +204,12 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
         <NavItem to="/" active={location.pathname === '/'}>Home</NavItem>
         <NavItem to="/mint" active={location.pathname === '/mint'}>Mint</NavItem>
         <NavItem to="/dashboard" active={location.pathname === '/dashboard'}>My NFT</NavItem>
+        <NavItem 
+          isExternal 
+          href="https://dinobytenfts-organization.gitbook.io/the-evolution-from-nft-to-defi"
+        >
+          Docs
+        </NavItem>
       </MobileMenu>
       <NavItemUnderline active={location.pathname === '/'} />
     </StyledNavbar>

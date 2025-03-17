@@ -119,6 +119,7 @@ const Footer: React.FC = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/mint">Mint</Link></li>
             <li><Link to="/dashboard">My NFTs</Link></li>
+            <li><a href='https://dinobytenfts-organization.gitbook.io/the-evolution-from-nft-to-defi' target="_blank">DOCS</a></li>
             <li><a href="#about">About Us</a></li>
           </FooterLinks>
         </FooterSection>
