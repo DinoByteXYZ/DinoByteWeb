@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
             <img src="/images/webp.webp" alt="DinoByte NFT" />
           </FooterLogo>
           <FooterText>
-            DinoByte NFT is an innovative blockchain digital collectible project that combines pixel art with blockchain technology.
+            DinoByte is an innovative NFT + DeFi ecosystem built on Sonic Chain, with the ultimate goal of evolving into a synthetic asset protocol.
           </FooterText>
           <SocialLinks>
             <SocialIcon href="https://x.com/DinoByteXYZ" target="_blank">X</SocialIcon>

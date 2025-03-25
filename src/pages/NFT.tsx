@@ -1,7 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import Navbar from '../components/common/Navbar';
-import Introduction from '../components/home/Introduction';
+import Hero from '../components/home/Hero';
+import About from '../components/home/About';
+import RaritySection from '../components/home/RaritySection';
+import MintCTA from '../components/home/MintCTA';
 import Footer from '../components/common/Footer';
 
 const HomeContainer = styled.div`
@@ -14,7 +17,10 @@ const Home: React.FC = () => {
   return (
     <HomeContainer>
       <Navbar transparent={true} />
-      <Introduction />
+      {/* <MintCTA /> */}
+      <Hero />
+      <RaritySection />
+      <About />
       <Footer />
     </HomeContainer>
   );

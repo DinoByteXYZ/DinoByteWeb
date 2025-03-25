@@ -10,7 +10,7 @@ import theme from './styles/theme';
 import Home from './pages/Home';
 import Mint from './pages/Mint';
 import Dashboard from './pages/Dashboard';
-
+import NFT from './pages/NFT';
 
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
+              <Route path="/nft" element={<NFT />} />
               <Route path="/mint" element={<Mint />} />
               <Route path="/dashboard" element={<Dashboard />} />
             </Routes>

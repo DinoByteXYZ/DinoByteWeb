@@ -20,7 +20,7 @@ const StyledNavbar = styled.nav<NavbarProps>`
   right: 0;
   z-index: 100;
   background-color: ${props => props.transparent ? 'transparent' : props.theme.colors.darker};
-  border-bottom: ${props => props.transparent ? 'none' : `2px solid ${props.theme.colors.primary}`};
+  border-bottom: 2px solid ${props => props.theme.colors.primary};
   
   &:after {
     content: '';
@@ -29,7 +29,7 @@ const StyledNavbar = styled.nav<NavbarProps>`
     left: 0;
     width: 100%;
     height: 1px;
-    background: ${props => props.transparent ? 'transparent' : props.theme.colors.secondary};
+    background: ${props => props.theme.colors.secondary};
     opacity: 0.5;
   }
 `;
@@ -147,7 +147,6 @@ const Title = styled.h1`
   }
 `;
 
-// 添加外部链接样式组件
 const ExternalNavItem = styled.a`
   color: ${props => props.theme.colors.light};
   text-decoration: none;
@@ -186,6 +185,7 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
       
       <MenuItems>
         <NavItem to="/" active={location.pathname === '/'}>Home</NavItem>
+        <NavItem to="/nft" active={location.pathname === '/nft'}>NFT</NavItem>
         <NavItem to="/mint" active={location.pathname === '/mint'}>Mint</NavItem>
         <NavItem to="/dashboard" active={location.pathname === '/dashboard'}>My NFT</NavItem>
         <NavItem 
@@ -202,6 +202,7 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
       
       <MobileMenu isOpen={mobileMenuOpen}>
         <NavItem to="/" active={location.pathname === '/'}>Home</NavItem>
+        <NavItem to="/nft" active={location.pathname === '/nft'}>NFT</NavItem>
         <NavItem to="/mint" active={location.pathname === '/mint'}>Mint</NavItem>
         <NavItem to="/dashboard" active={location.pathname === '/dashboard'}>My NFT</NavItem>
         <NavItem 
