@@ -250,7 +250,7 @@ const AIAssistant: React.FC = () => {
         <>
           <Header>
             <img src="/images/webp.webp" width={40} height={40} alt="DinoByte NFT" />
-            <Title> Dino AI</Title>
+            <Title>DinoGrok</Title>
             <HeaderControls>
               <RefreshButton onClick={(e) => {
                 e.stopPropagation();
