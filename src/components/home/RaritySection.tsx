@@ -114,7 +114,7 @@ interface RarityInfo {
 const RaritySection: React.FC = () => {
   const rarities: RarityInfo[] = [
     {
-      name: "COMMOM",
+      name: "COMMON",
       description: "The most common DinoByte, with unique traits",
       image: "/images/common.png",
       color: "#aaaaaa",

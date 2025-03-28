@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Navbar from '../components/common/Navbar';
 import Introduction from '../components/home/Introduction';
 import Footer from '../components/common/Footer';
+import AIAssistant from '../components/common/AIAssistant';
 
 const HomeContainer = styled.div`
   min-height: 100vh;
@@ -16,6 +17,7 @@ const Home: React.FC = () => {
       <Navbar transparent={true} />
       <Introduction />
       <Footer />
+      <AIAssistant />
     </HomeContainer>
   );
 };

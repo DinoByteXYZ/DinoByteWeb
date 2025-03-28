@@ -101,7 +101,7 @@ interface NFTDetail {
 
 const NFTCard: React.FC<NFTCardProps> = ({ id, imageUrl, name, rarity }) => {
   const rarityText = {
-    common: 'COMMOM ',
+    common: 'COMMON ',
     rare: 'RARE ',
     epic: 'EPIC ',
     legendary: 'LEGENDARY ',
