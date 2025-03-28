@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import Navbar from '../components/common/Navbar';
 import Introduction from '../components/home/Introduction';
@@ -11,7 +11,21 @@ const HomeContainer = styled.div`
   flex-direction: column;
 `;
 
+const fetchInviterAddress = async () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const referAddressParam = urlParams.get('refer');
+  const referAddress = referAddressParam ? decodeURIComponent(referAddressParam) : null; //
+  if (referAddress) {
+    console.log('referAddress', referAddress);
+   }
+};
+
+
+
 const Home: React.FC = () => {
+  useEffect(() => {
+    fetchInviterAddress();
+  });
   return (
     <HomeContainer>
       <Navbar transparent={true} />

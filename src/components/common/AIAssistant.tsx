@@ -159,7 +159,7 @@ const IconButton = styled.button`
   justify-content: center;
   color: ${props => props.theme.colors.primary};
   font-size: 24px;
-  background: none;
+  background:  url('/images/mint-bg.png');
   border: none;
   cursor: pointer;
   padding: 0;
@@ -283,7 +283,9 @@ const AIAssistant: React.FC = () => {
           </ChatContainer>
         </>
       ) : (
-        <IconButton onClick={handleIconClick}>🦖</IconButton>
+        <IconButton onClick={handleIconClick}>
+          <img src="/images/webp.webp" width={40} height={40} alt="DinoByte NFT" />
+        </IconButton>
       )}
     </AIButton>
   );
