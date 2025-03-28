@@ -2,21 +2,30 @@ import React, { useState, useCallback, useEffect } from 'react';
 import styled from 'styled-components';
 import qaData from '../../ori.json';
 
-const AIButton = styled.button<{ isExpanded: boolean }>`
+const AIButton = styled.div<{ isExpanded: boolean }>`
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  width: ${props => props.isExpanded ? '400px' : '60px'};
-  height: ${props => props.isExpanded ? '400px' : '60px'};
+  width: ${props => props.isExpanded ? '400px' : '50px'};
+  height: ${props => props.isExpanded ? '400px' : '50px'};
   background: ${props => props.theme.colors.darker};
   border: 2px solid ${props => props.theme.colors.primary};
   border-radius: 16px;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1000;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+
+  @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+    bottom: 1rem;
+    right: 1rem;
+    width: ${props => props.isExpanded ? 'calc(100% - 2rem)' : '50px'};
+    height: ${props => props.isExpanded ? '45vh' : '50px'};
+    border-radius: ${props => props.isExpanded ? '12px' : '10px'};
+  }
 `;
 
 const Header = styled.div`
@@ -25,12 +34,33 @@ const Header = styled.div`
   align-items: center;
   padding: 1rem;
   border-bottom: 1px solid ${props => props.theme.colors.primary};
+
+  @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+    padding: 0.8rem;
+  }
 `;
 
 const Title = styled.h3`
   color: ${props => props.theme.colors.light};
   margin: 0;
   font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  img {
+    width: 40px;
+    height: 40px;
+    
+    @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+    font-size: 1rem;
+  }
 `;
 
 const MinimizeButton = styled.button`
@@ -50,6 +80,31 @@ const ChatContainer = styled.div`
   flex: 1;
   overflow-y: auto;
   padding: 1rem;
+  -webkit-overflow-scrolling: touch;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  
+  @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+    padding: 0.8rem;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: ${props => props.theme.colors.primary};
+    border-radius: 3px;
+  }
+`;
+
+const QuestionWrapper = styled.div`
+  transform: translateZ(0);
+  backface-visibility: hidden;
 `;
 
 const QuestionButton = styled.button`
@@ -63,10 +118,18 @@ const QuestionButton = styled.button`
   text-align: left;
   cursor: pointer;
   transition: all 0.2s ease;
+  font-size: 1rem;
+  will-change: transform, background-color;
 
   &:hover {
     background: ${props => props.theme.colors.primary};
     color: ${props => props.theme.colors.darker};
+  }
+
+  @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.9rem;
+    -webkit-tap-highlight-color: transparent;
   }
 `;
 
@@ -76,16 +139,36 @@ const Answer = styled.div`
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   color: ${props => props.theme.colors.light};
+  font-size: 0.95rem;
+  line-height: 1.5;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
 `;
 
-const IconButton = styled.div`
-  width: 60px;
-  height: 60px;
+const IconButton = styled.button`
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: ${props => props.theme.colors.primary};
   font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+
+  @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
 `;
 
 const RefreshButton = styled.button`
@@ -156,6 +239,11 @@ const AIAssistant: React.FC = () => {
     initializeQuestions();
   };
 
+  const handleIconClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setIsExpanded(true);
+  };
+
   return (
     <AIButton isExpanded={isExpanded}>
       {isExpanded ? (
@@ -164,29 +252,38 @@ const AIAssistant: React.FC = () => {
             <img src="/images/webp.webp" width={40} height={40} alt="DinoByte NFT" />
             <Title> Dino AI</Title>
             <HeaderControls>
-              <RefreshButton onClick={handleRefresh} title="refresh">
+              <RefreshButton onClick={(e) => {
+                e.stopPropagation();
+                handleRefresh();
+              }} title="refresh">
                 <RefreshIcon />
               </RefreshButton>
-              <MinimizeButton onClick={() => setIsExpanded(false)}>↓</MinimizeButton>
+              <MinimizeButton onClick={(e) => {
+                e.stopPropagation();
+                setIsExpanded(false);
+              }}>↓</MinimizeButton>
             </HeaderControls>
           </Header>
-          <ChatContainer>
+          <ChatContainer onClick={(e) => e.stopPropagation()}>
             {displayedQuestions.map((index) => (
-              <div key={index}>
+              <QuestionWrapper key={index}>
                 <QuestionButton 
-                  onClick={() => setSelectedQuestion(index === selectedQuestion ? null : index)}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setSelectedQuestion(index === selectedQuestion ? null : index);
+                  }}
                 >
                   {qaConfig[index].question}
                 </QuestionButton>
                 {selectedQuestion === index && (
                   <Answer>{qaConfig[index].answer}</Answer>
                 )}
-              </div>
+              </QuestionWrapper>
             ))}
           </ChatContainer>
         </>
       ) : (
-        <IconButton onClick={() => setIsExpanded(true)}>🦖</IconButton>
+        <IconButton onClick={handleIconClick}>🦖</IconButton>
       )}
     </AIButton>
   );
